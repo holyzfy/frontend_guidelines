@@ -92,13 +92,7 @@
   - 按钮  btn + 表达功能的单词，例如:btn_login, btn_search, btn_uuy
   - 对于大块容器，实在想不出起什么名字，可以从这里选一个：box, section, content, grid
   
-  常用类名后缀
-
-  - _hd
-  - _bd
-  - _ft
-
-  示例：
+  一个典型的容器可以拆分为三部分：头部（`*_hd`），中部（`*_bd`），尾部（`*_ft`），结构如下：
 
   ```html
   <div class="help">
