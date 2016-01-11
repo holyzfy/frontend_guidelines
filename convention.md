@@ -35,10 +35,9 @@
   碰到这种情况，请配置`js/config.js`的`path`字段
   - jQuery变量请用`$`开头，例如
   
-  ```
+  ```js
   var $submit = $('#login_submit');
   ```
-  
 
 
 ## 注释
