@@ -7,6 +7,7 @@
 - [Javascript模块化编程](http://www.ruanyifeng.com/blog/2012/11/require_js.html)
 - http://docs.emmet.io/cheat-sheet/
 - [Google JavaScript Style Guide](http://google.github.io/styleguide/javascriptguide.xml)
+- [优化性能](https://developers.google.com/web/fundamentals/performance/?hl=zh-cn)
 - [git教程](http://git-scm.com/book/zh/v2)
 - [linux命令手册](http://man.linuxde.net/)
 
