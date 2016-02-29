@@ -33,6 +33,7 @@
   ```
 
   碰到这种情况，请配置`js/config.js`的`path`字段
+  -  [基于require.js的模块管理](https://github.com/holyzfy/frontend_guidelines/issues/1)
   - jQuery变量请用`$`开头，例如
   
   ```js
