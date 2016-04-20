@@ -23,3 +23,7 @@
 
 - [重构](http://book.douban.com/subject/4262627/)
 - [编写可测试的JavaScript代码](http://book.douban.com/subject/26348084/)
+
+## 其他
+- [Web技术日报](http://web.memect.com/)
+- [feeder](http://feeder.co/)
