@@ -2,6 +2,7 @@
 
 ## 文档
 
+- [SASS语法](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 - [css选择器](http://www.w3school.com.cn/cssref/css_selectors.asp)
 - [AMD规范](http://requirejs.org/docs/api.html)
 - [Javascript模块化编程](http://www.ruanyifeng.com/blog/2012/11/require_js.html)
