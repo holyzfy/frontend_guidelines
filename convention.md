@@ -42,6 +42,17 @@ require('path/to/search_result')
 var $submit = $('#login_submit');
 ```
 
+## ajax
+
+```js
+{
+    "data": {
+        // 数据
+    },
+    "message": "请求成功", // 描述
+    "status": 0 // 0表示成功，其他整数表示失败
+}
+```
 
 ## 注释
     
