@@ -87,13 +87,14 @@
   git commit --amend
   ```
 
-- 解决冲突：
-  
+- 解决冲突：例如当前在`dev`分支，准备把`master`分支合并到`dev`分支时遇到冲突，解决步骤：
   0. `git merge --abort` 中止冲突的合并
-  0. `git merge -X theirs master` 例如把master分支合并到当前分支，冲突的部分使用远程分支代码
-  0. 把冲突的代码手工补全，再次提交代码
-  0. 结束
+  0. 对于冲突的文件，选择保留哪个分支的代码
+
+    - `git merge -X theirs master` 使用`master`分支
+    - `git merge -s ours master` 使用`dev`分支，也就是当前所在的分支
   
+  0. 结束
 
 - 合并多个提交。例如合并最近的两次提交：
   
