@@ -87,11 +87,13 @@
   git commit --amend
   ```
 
-- 中止冲突的合并：
-
-  ```
-  git merge --abort
-  ```
+- 解决冲突：
+  
+  0. `git merge --abort` 中止冲突的合并
+  0. `git merge -X theirs master` 例如把master分支合并到当前分支，冲突的部分使用远程分支代码
+  0. 把冲突的代码手工补全，再次提交代码
+  0. 结束
+  
 
 - 合并多个提交。例如合并最近的两次提交：
   
