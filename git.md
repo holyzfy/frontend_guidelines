@@ -103,3 +103,11 @@
   ```
 
   然后根据提示在vim里编辑并保存
+
+- 如果在`master`分支运行`git pull`时遇到冲突，可能是因为你运行完`git merge dev`后未及时push，解决办法是撤销刚才的合并操作：
+  
+  0. 运行`git merge --abort` 中止合并，因为`git pull`的意思是`git fetch` + `git merge origin`
+  0. 找到`git merge dev`前的那一次提交的commit id，例如`da183fb88`
+  0. 运行`git reset --hard da183fb88`
+  0. 运行`git pull`
+  0. 结束
