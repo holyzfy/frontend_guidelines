@@ -111,3 +111,5 @@
   0. 运行`git reset --hard da183fb88`
   0. 运行`git pull`
   0. 结束
+
+- 拉取远程所有的分支 `git pull --all`
