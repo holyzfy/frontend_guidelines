@@ -28,4 +28,5 @@
 
 ## 其他
 - [Web技术日报](http://web.memect.com/)
+- [Echo JS](http://www.echojs.com/)
 - [feeder](http://feeder.co/)
