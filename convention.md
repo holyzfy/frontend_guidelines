@@ -13,7 +13,7 @@
 
 ## css
 
-请配置编辑器，要求能把less或者scss文件编译成同名的css文件，并自动加上css3前缀，把编译出的css文件保存到less或者less文件的同目录下，例如[给Sublime Text 3配置SASS](https://github.com/holyzfy/frontend_guidelines/issues/4)
+请配置编辑器，要求能把less或者scss文件编译成同名的css文件，并自动加上css3前缀，例如[给Sublime Text 3配置SASS](https://github.com/holyzfy/frontend_guidelines/issues/4)
 
 ## js
 
