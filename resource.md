@@ -2,6 +2,7 @@
 
 ## 文档
 
+- [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 - [SASS语法](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 - [css选择器](http://www.w3school.com.cn/cssref/css_selectors.asp)
 - [AMD规范](http://requirejs.org/docs/api.html)
@@ -30,4 +31,3 @@
 - [Web技术日报](http://web.memect.com/)
 - [Echo JS](http://www.echojs.com/)
 - [feeder](http://feeder.co/)
-- [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
