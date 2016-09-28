@@ -48,7 +48,7 @@
   坏的写法:
   
   ```css
-  .tree  .item {...}
+  .tree  .tree_item {...}
   div.box  div  div  .item {...}
   .box  * {...}
   ```
