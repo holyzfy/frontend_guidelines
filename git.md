@@ -100,7 +100,7 @@
 例如合并最近的5次提交，也就是说`HEAD~4`：
   
   ```
-  git rebase -i HEAD~2
+  git rebase -i HEAD~4
   ```
 
   然后根据提示在vim里编辑并保存
