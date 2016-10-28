@@ -79,7 +79,7 @@
 
   0. 暂存 `git stash`
 
-  0. 取回刚才暂存的内容 `git stash pop`
+  0. 取回刚才暂存的内容 `git stash apply`
 
 - 如果忘了提交某些文件，或者想要重新编写提交信息，可以使用 `--amend` 选项重新提交：
 
@@ -103,7 +103,7 @@
   git rebase -i HEAD~4
   ```
 
-  然后根据提示在vim里编辑并保存
+  然后根据提示在vim里编辑并保存，如果想中止操作，退出vim后请运行`git rebase --abort`
 
 - 如果在`master`分支运行`git pull`时遇到冲突，可能是因为你运行完`git merge dev`后未及时push，解决办法是撤销刚才的合并操作：
   
@@ -114,3 +114,4 @@
   0. 结束
 
 - 拉取远程所有的分支 `git pull --all`
+- [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
