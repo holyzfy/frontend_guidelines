@@ -92,7 +92,7 @@
   0. 对于冲突的文件，选择保留哪个分支的代码
 
     - `git merge -X theirs master` 使用`master`分支
-    - `git merge -s ours master` 使用`dev`分支，也就是当前所在的分支
+    - `git merge -X ours master` 使用`dev`分支，也就是当前所在的分支
   
   0. 结束
 
