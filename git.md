@@ -138,7 +138,7 @@
   Author: zhangsan <zhangsan@rongcloud.cn>
   Date:   Mon Jun 26 15:43:35 2017 +0800
   ```
-本次提交是个合并操作，合并了`2c87eaa` 和 `a179b35`
+  本次提交是个合并操作，合并了`2c87eaa` 和 `a179b35`
 
   - 回退到`2c87eaa`: `git revert edeadbf -m 1`
   - 回退到`a179b35`: `git revert edeadbf -m 2`
