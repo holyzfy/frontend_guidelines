@@ -112,7 +112,7 @@
   3. 结束
 
 - 如果在本地提交了多次代码，并且还未push到远程，可以把[几个连续的提交合并成一个](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E5%86%99%E5%8E%86%E5%8F%B2)，使提交记录看起来更简洁。
-例如合并最近的4次提交，也就是说`HEAD~4`：
+例如合并最近的4次提交：
   
   ```
   git rebase -i HEAD~4
@@ -142,6 +142,7 @@
 
   - 回退到`2c87eaa`: `git revert edeadbf -m 1`
   - 回退到`a179b35`: `git revert edeadbf -m 2`
+
 
 - 把其他分支的部分提交合并到当前分支 `git cherry-pick <commit_id>`，多个提交用空格隔开。如果要撤消的提交是个合并操作，需要增加`-m`，规则同上。
 - 拉取远程所有的分支 `git pull --all`
