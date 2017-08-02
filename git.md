@@ -1,4 +1,19 @@
-# git分支管理策略
+# git
+
+## git提交日志格式
+
+    <类型>: <描述>
+
+[**类型**](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#type)必须是以下值之一：
+
+- **feat**: 新增功能
+- **fix**: 修复bug
+- **docs**: 更新文档
+- **style**: 代码排版
+- **refactor**: 重构
+- **chore**: 其他
+
+**描述**：请一句话说明本次的提交内容
 
 ## 常用分支
 
@@ -96,8 +111,8 @@
   
   3. 结束
 
-- 如果在本地提交了多次代码，并且还未push到远程，可以把几个连续的提交合并成一个，使提交记录看起来更简洁。
-例如合并最近的5次提交，也就是说`HEAD~4`：
+- 如果在本地提交了多次代码，并且还未push到远程，可以把[几个连续的提交合并成一个](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E5%86%99%E5%8E%86%E5%8F%B2)，使提交记录看起来更简洁。
+例如合并最近的4次提交，也就是说`HEAD~4`：
   
   ```
   git rebase -i HEAD~4
@@ -113,5 +128,21 @@
   4. 运行`git pull`
   5. 结束
 
+- 拉取远程所有的分支 `git fetch --all`
+
+- 撤消提交 `git revert <commit_id>`，多个提交用空格隔开。如果要撤消的提交是个合并操作，需要增加`-m`参数指定回退到哪个分支，例如要撤消如下提交
+
+  ```
+  commit edeadbf21b2944587b65f55bf58e14874f5a1a0e
+  Merge: 2c87eaa a179b35
+  Author: zhangsan <zhangsan@rongcloud.cn>
+  Date:   Mon Jun 26 15:43:35 2017 +0800
+  ```
+本次提交是个合并操作，合并了`2c87eaa` 和 `a179b35`
+
+  - 回退到`2c87eaa`: `git revert edeadbf -m 1`
+  - 回退到`a179b35`: `git revert edeadbf -m 2`
+
+- 把其他分支的部分提交合并到当前分支 `git cherry-pick <commit_id>`，多个提交用空格隔开。如果要撤消的提交是个合并操作，需要增加`-m`，规则同上。
 - 拉取远程所有的分支 `git pull --all`
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
