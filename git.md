@@ -135,7 +135,7 @@
   ```
   commit edeadbf21b2944587b65f55bf58e14874f5a1a0e
   Merge: 2c87eaa a179b35
-  Author: zhangsan <zhangsan@rongcloud.cn>
+  Author: zhangsan <zhangsan@example.com>
   Date:   Mon Jun 26 15:43:35 2017 +0800
   ```
   本次提交是个合并操作，合并了`2c87eaa` 和 `a179b35`
@@ -144,6 +144,6 @@
   - 回退到`a179b35`: `git revert edeadbf -m 2`
 
 
-- 把其他分支的部分提交合并到当前分支 `git cherry-pick <commit_id>`，多个提交用空格隔开。如果要撤消的提交是个合并操作，需要增加`-m`，规则同上。
+- 把其他分支的部分提交合并到当前分支 `git cherry-pick A^..B` (包含A和B，A比B早)。如果某个提交是个合并操作，需要增加`-m`，规则同上。
 - 拉取远程所有的分支 `git pull --all`
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
