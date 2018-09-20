@@ -149,3 +149,12 @@
 - 把其他分支的部分提交合并到当前分支 `git cherry-pick A^..B` (包含A和B，A比B早)。如果某个提交是个合并操作，需要增加`-m`，规则同上。
 - 拉取远程所有的分支 `git pull --all`
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+
+- 解决中文路径乱码，请在命令行依次运行
+
+    ```
+    git config --global core.quotepath false # 解决 git status 中文件路径的编码问题
+    git config --global gui.encoding utf-8 # 图形Git GUI界面编码
+    git config --global i18n.commit.encoding utf-8 # 提交信息编码
+    git config --global i18n.logoutputencoding utf-8 # 输出 log 编码
+    ```
