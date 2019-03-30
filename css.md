@@ -97,8 +97,19 @@
   ```html
   <div class="help">
        <h2 class="help-hd">标题</h2>
-       <div class="help-bd">内容 。。。</div>
+       <div class="help-bd">内容</div>
        <div class="help-ft">尾部</div>
   </div>
   ```
+  
+  或者左右结构
+  
+  ```html
+  <div class="help">
+       <h2 class="help-hd">标题</h2>
+       <div class="help-aside">侧边</div>
+       <div class="help-main">内容</div>
+  </div>
+  ```
+  
   
