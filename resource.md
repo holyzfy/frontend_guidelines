@@ -5,7 +5,6 @@
 - [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 - [SASS语法](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 - [css选择器](http://www.w3school.com.cn/cssref/css_selectors.asp)
-- [AMD规范](http://requirejs.org/docs/api.html)
 - [Javascript模块化编程](http://www.ruanyifeng.com/blog/2012/11/require_js.html)
 - [JavaScript Style Guide (ES5)](https://github.com/airbnb/javascript/tree/master/es5)
 - http://docs.emmet.io/cheat-sheet/
@@ -28,6 +27,6 @@
 - [编写可测试的JavaScript代码](http://book.douban.com/subject/26348084/)
 
 ## 其他
-- [Web技术日报](http://web.memect.com/)
+
 - [Echo JS](http://www.echojs.com/)
 - [feeder](http://feeder.co/)
