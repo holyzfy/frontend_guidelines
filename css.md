@@ -48,7 +48,7 @@
   坏的写法:
   
   ```css
-  .tree  .tree_item {...}
+  .tree  .tree-item {...}
   div.box  div  div  .item {...}
   .box  * {...}
   ```
@@ -57,7 +57,7 @@
   好的写法:
   
   ```css
-  .tree_item {...}
+  .tree-item {...}
   .box  .item {...} /*把*替换成具体的标签或类名*/
   ```
 
@@ -67,14 +67,14 @@
 
   ```html
   <div class="box help">
-       <h2 class="box_hd">标题</h2>
-       <div class="box_bd help_bd">内容 。。。</div>
-       <div class="box_ft">尾部</div>
+       <h2 class="box-hd">标题</h2>
+       <div class="box-bd help-bd">内容 。。。</div>
+       <div class="box-ft">尾部</div>
   </div>
   ```
   
   .box是通用的样式类名，只写最基本的外观样式，.help具体的功能类名，
-  如果要覆盖.box_bd里的某个样式可以用.help .box_bd{}来覆盖，也可以用.help_bd来覆盖
+  如果要覆盖.box-bd里的某个样式可以用.help .box-bd{}来覆盖，也可以用.help-bd来覆盖
   
 - 常用类名
 
@@ -89,16 +89,16 @@
   - 列表  list
   - 选项卡 tab
   - 提示  tip
-  - 按钮  btn + 表达功能的单词，例如:btn_login, btn_search, btn_buy
+  - 按钮  btn + 表达功能的单词，例如:btn-login, btn-search, btn-buy
   - 对于大块容器，实在想不出起什么名字，可以从这里选一个：box, section, content, grid
   
-  一个典型的容器可以拆分为三部分：头部（`*_hd`），中部（`*_bd`），尾部（`*_ft`），结构如下：
+  一个典型的容器可以拆分为三部分：头部（`*-hd`），中部（`*-bd`），尾部（`*-ft`），结构如下：
 
   ```html
   <div class="help">
-       <h2 class="help_hd">标题</h2>
-       <div class="help_bd">内容 。。。</div>
-       <div class="help_ft">尾部</div>
+       <h2 class="help-hd">标题</h2>
+       <div class="help-bd">内容 。。。</div>
+       <div class="help-ft">尾部</div>
   </div>
   ```
   
